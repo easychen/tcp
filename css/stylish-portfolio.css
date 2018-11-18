@@ -116,6 +116,10 @@ h6 {
 }
 
 .wide-box {
+  text-align: center;
+}
+
+.wide-box > div {
   max-width: 1000px;
 }
 

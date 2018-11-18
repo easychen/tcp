@@ -26,5 +26,10 @@
 
 .wide-box
 {
-  max-width: 1000px;
+  text-align: center;
+  > div
+  {
+    max-width: 1000px;
+  }
+  
 }

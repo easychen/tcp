@@ -90,12 +90,9 @@ h6 {
   position: relative;
   display: table;
   width: 100%;
-  max-height: 100vh;
-  overflow-y: hidden;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: white;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,7 +293,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(76, 176, 242, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -321,7 +318,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #1c9bef;
   text-decoration: none;
 }
 
@@ -330,7 +327,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #1c9bef;
 }
 
 .btn-primary {
@@ -340,19 +337,19 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #1c9bef !important;
+  border-color: #1c9bef !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: white !important;
+  border-color: white !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #e6e6e6 !important;
+  border-color: #e6e6e6 !important;
 }
 
 .btn-dark {
@@ -374,5 +371,5 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: white !important;
 }

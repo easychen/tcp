@@ -90,11 +90,12 @@ h6 {
   position: relative;
   display: table;
   width: 100%;
+  max-height: 100vh;
+  overflow-y: hidden;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: white;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +127,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #4CB0F2;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -206,7 +207,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #4CB0F2;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -312,7 +313,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #4CB0F2;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -325,7 +326,7 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #4CB0F2;
 }
 
 a:hover, a:focus, a:active {
@@ -333,8 +334,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #4CB0F2 !important;
+  border-color: #4CB0F2 !important;
   color: #fff !important;
 }
 
@@ -365,11 +366,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #4CB0F2 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #4CB0F2 !important;
 }
 
 .text-secondary {

@@ -115,6 +115,10 @@ h6 {
   }
 }
 
+.wide-box {
+  max-width: 1000px;
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;

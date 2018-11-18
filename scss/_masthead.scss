@@ -24,12 +24,12 @@
   }
 }
 
-.wide-box
-{
-  text-align: center;
-  > div
-  {
-    max-width: 1000px;
-  }
-  
+.wide-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wide-box > div {
+  max-width: 1500px;
 }
